@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height:500px;
+            width:800px;
+            object-fit: contain;
+            
+        }
+        button{
+            background-color:aquamarine;
+            border: 2px solid aquamarine;
+            border-radius: 10px;
+            padding: 8px;
+            color:darkgreen
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            gap:50px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <img src="https://media.tenor.com/07lvyk7Mw7gAAAAM/brahmanandam-bhibatsam.gif"> -->
+       
+       
+        <button>Back to Puzzle</button>
+    </div>
+    <script>
+        
+       var bu=document.getElementsByTagName("button")
+       bu[0].addEventListener("click",()=>{
+            window.location.assign("./index.html")
+       })
+    </script>
+</body>
+</html>
